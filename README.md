@@ -20,6 +20,25 @@ Learn more about about Uber API, documentation, samples, and more at https://dev
 - Promotions
 - Sandbox 
 
+# Download
+
+Gradle:
+
+```groovy
+compile 'com.neno0o.ubersdk:ubersdk:0.1'
+```
+
+Maven:
+
+```xml
+<dependency>
+  <groupId>com.neno0o.ubersdk</groupId>
+  <artifactId>ubersdk</artifactId>
+  <version>0.1</version>
+  <type>aar</type>
+</dependency>
+```
+
 # Contributing
 
 All pull requests are welcome. If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
