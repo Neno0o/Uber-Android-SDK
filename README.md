@@ -4,7 +4,7 @@ This open-source library allows you to integrate Uber into your Android app.
 
 Learn more about about Uber API, documentation, samples, and more at https://developer.uber.com/
 
-# FEATURES
+# Features
 - Rides By Uber Button
 - Authentication
 - User Profile
@@ -20,19 +20,19 @@ Learn more about about Uber API, documentation, samples, and more at https://dev
 - Promotions
 - Sandbox 
 
-# CONTRIBUTING
+# Contributing
 
 All pull requests are welcome. If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
 
 When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.
 
-# TODO
+# Todo
 
 - Style More Buttons
-- Unit Tests
+- Unit Testing
 - Validation
 
-# LICENCE
+# Licence
 
     Copyright 2015 Neno0o
 
