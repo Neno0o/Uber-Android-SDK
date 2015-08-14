@@ -39,6 +39,23 @@ Maven:
 </dependency>
 ```
 
+# Usage
+
+First, navigate over to https://developer.uber.com/, and sign up for an Uber developer account.
+
+**Initialize Uber**
+
+Call `Uber.getInstance().init` from the onCreate method of your Application class to set your client id, client secert, server token and redirect url:
+
+``` java
+Uber.getInstance().init("CLIENT_ID",
+                "CLIENT_SECRET",
+                "SERVER_TOKEN",
+                "REDIRECT_URL");
+```
+
+
+
 # Contributing
 
 All pull requests are welcome. If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
