@@ -1,17 +1,41 @@
 package com.neno0o.uber_android_sdk;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+
+import com.neno0o.ubersdk.Activites.Authentication;
+import com.neno0o.ubersdk.Endpoints.Models.UserProfile.User;
+import com.neno0o.ubersdk.Uber;
+import com.neno0o.ubersdk.Widgets.UberButton;
+
+import retrofit.Callback;
+import retrofit.RetrofitError;
+import retrofit.client.Response;
 
 
 public class MainActivity extends AppCompatActivity {
+
+    public static final int UBER_AUTHENTICATION = 1;
+    UberButton uberButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        uberButton = (UberButton) findViewById(R.id.uberBtn);
+        uberButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, Authentication.class);
+                startActivityForResult(intent, UBER_AUTHENTICATION);
+            }
+        });
     }
 
 
@@ -35,5 +59,23 @@ public class MainActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+        if (requestCode == UBER_AUTHENTICATION) {
+            Log.wtf("token", Uber.getInstance().getAccessToken().getAccessTokenValue());
+            Uber.getInstance().getUberAPIService().getMe(new Callback<User>() {
+                @Override
+                public void success(User user, Response response) {
+                    Log.wtf("user", user.getFirstName());
+                }
+
+                @Override
+                public void failure(RetrofitError error) {
+
+                }
+            });
+        }
     }
 }
