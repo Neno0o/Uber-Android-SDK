@@ -1,5 +1,25 @@
-# Uber-Android-SDK
-An unofficial Android SDK for Uber 
+# Uber SDK for Android
+An unofficial Uber SDK for Android. 
+This open-source library allows you to integrate Uber into your Android app.
+
+Learn more about about Uber API, documentation, samples, and more at https://developer.uber.com/
+
+# Features
+- Login Button
+- Authentication
+- User Profile
+- User History
+- Request By Uber
+- Request Estimation
+- Request Cancellation
+- Request Map
+- Request Receipt
+- Uber Products
+- Price Estimation
+- Time Estimation
+- Promotions
+- Sandbox 
+
 
 # License
 
