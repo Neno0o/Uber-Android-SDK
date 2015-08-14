@@ -1,5 +1,5 @@
-# Uber SDK for Android
-An unofficial Uber SDK for Android. 
+# Uber SDK for Android (Beta)
+An unofficial Uber SDK for Android (Beta). 
 This open-source library allows you to integrate Uber into your Android app.
 
 Learn more about about Uber API, documentation, samples, and more at https://developer.uber.com/
@@ -20,8 +20,19 @@ Learn more about about Uber API, documentation, samples, and more at https://dev
 - Promotions
 - Sandbox 
 
+# Contributing
 
-# License
+All pull requests are welcome. If you would like to contribute code you can do so through GitHub by forking the repository and sending a pull request.
+
+When submitting code, please make every effort to follow existing conventions and style in order to keep the code as readable as possible.
+
+# Todo
+
+- Style More Buttons
+- Unit Testing
+- Validation
+
+# Licence
 
     Copyright 2015 Neno0o
 
