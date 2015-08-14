@@ -9,7 +9,7 @@ Learn more about about Uber API, documentation, samples, and more at https://dev
 - Authorization
 - User Profile
 - User History
-- Request By Uber
+- Make a Request
 - Request Estimation
 - Request Cancellation
 - Request Map
@@ -136,6 +136,99 @@ Uber.getInstance().getUberAPIService().postRequest(uberRequestBody, new Callback
 
     }
 });
+```
+**Request Estimation (Authorization Required)**
+
+Allowing a ride to be estimated given the desired product, start, and end locations.
+
+``` java
+UberEstimateBody uberEstimateBody = new UberEstimateBody(productId,
+        startLatitude,
+        startLongitude,
+        endLatitude,
+        endLongitude);
+        
+Uber.getInstance().getUberAPIService().postEstimateRequest(uberEstimateBody, new Callback<UberEstimateRequest>() {
+    @Override
+    public void success(UberEstimateRequest uberEstimateRequest, Response response) {
+
+    }
+});
+```
+
+**Request Cancellation (Authorization Required)**
+
+Cancel an ongoing Request on behalf of a rider.
+
+``` java
+Uber.getInstance().getUberAPIService().deleteRequest(requestId);
+```
+
+**Request Map (Authorization Required)**
+
+Get a map with a visual representation of a Request.
+
+``` java
+Uber.getInstance().getUberAPIService().getMapRequest(requestId);
+```
+
+**Request Receipt (Authorization Required)**
+
+Get the receipt information of the completed request.
+
+``` java
+Uber.getInstance().getUberAPIService().getReceiptRequest(requestId, new Callback<UberReceiptRequest>() {
+    @Override
+    public void success(UberReceiptRequest uberReceiptRequest, Response response) {
+                
+    }
+});
+```
+
+**Uber Products**
+
+Returns information about the Uber products offered at a given location.
+
+``` java
+Uber.getInstance().getUberAPIService().getProducts(latitude, longitude, new Callback<Products>() {
+    @Override
+    public void success(Products products, Response response) {
+        Log.d("Product", products.getProducts().get(0).getDisplayName());
+    }
+});
+```
+
+**Price Estimation**
+
+Returns an estimated price range for each product offered at a given location.
+
+``` java
+Uber.getInstance().getUberAPIService().getPriceEstimates(start_latitude,
+      start_longitude,
+      end_latitude,
+      end_longitude,
+      new Callback<Prices>() {
+      @Override
+      public void success(Prices prices, Response response) {
+                        
+      }
+});
+```
+
+**Time Estimation**
+
+Returns ETAs for all products offered at a given location.
+
+``` java
+Uber.getInstance().getUberAPIService().getTimeEstimates(start_latitude, start_longitude);
+```
+
+**Promotions**
+
+The Promotions endpoint returns information about the promotion that will be available to a new user based on their activity's location
+
+``` java
+Uber.getInstance().getUberAPIService().getPromotions(startLatitude, startLongitude, endLatitude, endLongitude);
 ```
 
 # Contributing
