@@ -6,7 +6,7 @@ Learn more about about Uber API, documentation, samples, and more at https://dev
 
 # Features
 - Rides By Uber Button
-- Authentication
+- Authorization
 - User Profile
 - User History
 - Request By Uber
@@ -54,7 +54,89 @@ Uber.getInstance().init("CLIENT_ID",
                 "REDIRECT_URL");
 ```
 
+**Rides By Uber Button**
 
+Use this widget or use your own button
+
+```xml
+<com.neno0o.ubersdk.Widgets.UberButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/uberBtn"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+```
+
+**User Authorization**
+
+If your application will access resources on behalf of an Uber user, such as with the Me and User Activity endpoints, you will need to follow the three-legged OAuth 2.0 flow in order to obtain an access_token.
+
+``` java
+UberButton uberButton = (UberButton) findViewById(R.id.uberBtn);
+uberButton.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent = new Intent(MainActivity.this, Authentication.class);
+        startActivityForResult(intent, UBER_AUTHENTICATION);
+    }
+});
+```
+This will give you the access_token expires in 30 days. Call `onActivityResult`
+
+``` java
+@Override
+protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+    if (requestCode == UBER_AUTHENTICATION) {
+        // you have now access token
+        // you can access resources on behalf of an Uber use
+    }
+}
+```
+**User Profile (Authorization Required)**
+
+To return information about the Uber user that has authorized with the application.
+
+``` java
+Uber.getInstance().getUberAPIService().getMe(new Callback<User>() {
+    @Override
+    public void success(User user, Response response) {
+        Log.d("user", user.getFirstName());
+    }
+});
+```
+
+**User History v1.2 (Authorization Required)**
+
+To returns a limited amount of data about a user's lifetime activity with Uber.
+
+``` java
+Uber.getInstance().getUberAPIService().getUserActivity(3, 3, new Callback<UserActivity>() {
+    @Override
+    public void success(UserActivity userActivity, Response response) {
+    
+    }
+});
+```
+
+**Make a request (Authorization Required)**
+
+Allowing a ride to be requested on behalf of an Uber user given their desired product, start, and end locations.
+
+``` java
+UberRequestBody uberRequestBody = new UberRequestBody(productId,
+        startLatitude,
+        startLongitude,
+        endLatitude,
+        endLongitude,
+        surgeConfirmationId);
+        
+Uber.getInstance().getUberAPIService().postRequest(uberRequestBody, new Callback<UberRequest>() {
+    @Override
+    public void success(UberRequest uberRequest, Response response) {
+
+    }
+});
+```
 
 # Contributing
 
