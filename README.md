@@ -110,7 +110,7 @@ Uber.getInstance().getUberAPIService().getMe(new Callback<User>() {
 To returns a limited amount of data about a user's lifetime activity with Uber.
 
 ``` java
-Uber.getInstance().getUberAPIService().getUserActivity(3, 3, new Callback<UserActivity>() {
+Uber.getInstance().getUberAPIService().getUserActivity(offset, limit, new Callback<UserActivity>() {
     @Override
     public void success(UserActivity userActivity, Response response) {
     
