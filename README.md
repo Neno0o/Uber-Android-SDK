@@ -5,7 +5,7 @@ This open-source library allows you to integrate Uber into your Android app.
 Learn more about about Uber API, documentation, samples, and more at https://developer.uber.com/
 
 # Features
-- Login Button
+- Rides By Uber Button
 - Authentication
 - User Profile
 - User History
