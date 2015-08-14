@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Uber-Android-SDK.iml" filepath="$PROJECT_DIR$/Uber-Android-SDK.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ubersdk/ubersdk.iml" filepath="$PROJECT_DIR$/ubersdk/ubersdk.iml" />
     </modules>
   </component>
 </project>
