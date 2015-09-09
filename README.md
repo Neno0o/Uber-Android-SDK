@@ -76,6 +76,7 @@ Manifest.xml in Application tag
 ```xml
 <activity android:name="com.neno0o.ubersdk.Activites.Authentication" />
 ```
+Activity.java
 
 ``` java
 UberButton uberButton = (UberButton) findViewById(R.id.uberBtn);
