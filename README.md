@@ -25,7 +25,7 @@ Learn more about about Uber API, documentation, samples, and more at https://dev
 Gradle:
 
 ```groovy
-compile 'com.neno0o.ubersdk:ubersdk:0.1'
+compile 'com.neno0o.ubersdk:ubersdk:0.2'
 ```
 
 Maven:
@@ -34,7 +34,7 @@ Maven:
 <dependency>
   <groupId>com.neno0o.ubersdk</groupId>
   <artifactId>ubersdk</artifactId>
-  <version>0.1</version>
+  <version>0.2</version>
   <type>aar</type>
 </dependency>
 ```
@@ -70,6 +70,12 @@ Use this widget or use your own button
 **User Authorization**
 
 If your application will access resources on behalf of an Uber user, such as with the Me and User Activity endpoints, you will need to follow the three-legged OAuth 2.0 flow in order to obtain an access_token.
+
+Manifest.xml in Application tag
+
+```xml
+<activity android:name="com.neno0o.ubersdk.Activites.Authentication" />
+```
 
 ``` java
 UberButton uberButton = (UberButton) findViewById(R.id.uberBtn);
