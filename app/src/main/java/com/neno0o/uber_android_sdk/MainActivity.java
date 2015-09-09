@@ -64,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         if (requestCode == UBER_AUTHENTICATION) {
-            Log.wtf("token", Uber.getInstance().getAccessToken().getAccessTokenValue());
+            Log.d("token", Uber.getInstance().getAccessToken().getAccessTokenValue());
             Uber.getInstance().getUberAPIService().getMe(new Callback<User>() {
                 @Override
                 public void success(User user, Response response) {
-                    Log.wtf("user", user.getFirstName());
+                    Log.d("user", user.getFirstName());
                 }
 
                 @Override
