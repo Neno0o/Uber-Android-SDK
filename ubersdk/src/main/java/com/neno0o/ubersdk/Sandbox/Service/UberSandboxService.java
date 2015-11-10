@@ -2,8 +2,8 @@ package com.neno0o.ubersdk.Sandbox.Service;
 
 import com.neno0o.ubersdk.Sandbox.Models.SandboxProductBody;
 import com.neno0o.ubersdk.Sandbox.Models.SandboxRequestBody;
-import com.squareup.okhttp.Response;
 
+import retrofit.client.Response;
 import retrofit.http.Body;
 import retrofit.http.PUT;
 import retrofit.http.Path;

@@ -13,9 +13,9 @@ import com.neno0o.ubersdk.Endpoints.Models.Requests.UberRequestBody;
 import com.neno0o.ubersdk.Endpoints.Models.Times.Times;
 import com.neno0o.ubersdk.Endpoints.Models.UserActivity.UserActivity;
 import com.neno0o.ubersdk.Endpoints.Models.UserProfile.User;
-import com.squareup.okhttp.Response;
 
 import retrofit.Callback;
+import retrofit.client.Response;
 import retrofit.http.Body;
 import retrofit.http.DELETE;
 import retrofit.http.GET;

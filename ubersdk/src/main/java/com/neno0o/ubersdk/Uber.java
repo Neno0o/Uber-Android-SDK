@@ -12,7 +12,6 @@ import com.neno0o.ubersdk.Endpoints.Service.UberAPIService;
 import com.neno0o.ubersdk.Exceptions.ForbiddenException;
 import com.neno0o.ubersdk.Exceptions.UnauthorizedException;
 import com.neno0o.ubersdk.Sandbox.Service.UberSandboxService;
-import com.squareup.okhttp.OkHttpClient;
 
 import java.lang.reflect.Type;
 import java.util.Date;
@@ -98,7 +97,6 @@ public class Uber {
                         return new Date(json.getAsJsonPrimitive().getAsLong());
                     }
                 });
-        OkHttpClient okHttpClient = new OkHttpClient();
         gson = gsonBuilder.create();
 
         RestAdapter apiRestAdapter = new RestAdapter.Builder()
