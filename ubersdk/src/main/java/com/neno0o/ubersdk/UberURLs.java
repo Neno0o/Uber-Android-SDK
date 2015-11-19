@@ -7,7 +7,7 @@ public class UberURLs {
     public static final String SCOPE_REQUEST = "request";
 
     public static final String OAUTH_URL = "https://login.uber.com";
-    public static final String AUTHORIZE_URL = "https://login.uber.com/oauth/authorize";
-    public static final String API_URL = "https://api.uber.com";
+    public static final String AUTHORIZE_URL = "https://login.uber.com/oauth/v2/authorize";
+    public static final String API_URL = "https://api.uber.com/v1";
     public static final String SANDBOX_URL = "https://sandbox-api.uber.com";
 }
