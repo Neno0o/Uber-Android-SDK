@@ -92,11 +92,11 @@ public class Product {
         this.image = image;
     }
 
-    public PriceDetails getPrice_details() {
+    public PriceDetails getPriceDetails() {
         return price_details;
     }
 
-    public void setPrice_details(PriceDetails price_details) {
+    public void setPriceDetails(PriceDetails price_details) {
         this.price_details = price_details;
     }
 
@@ -159,27 +159,27 @@ public class Product {
         private String currency_code;
 
 
-        public List<ServiceFees> getService_fees() {
+        public List<ServiceFees> getServiceFees() {
             return service_fees;
         }
 
-        public void setService_fees(List<ServiceFees> service_fees) {
+        public void setServiceFees(List<ServiceFees> service_fees) {
             this.service_fees = service_fees;
         }
 
-        public String getDistance_unit() {
+        public String getDistanceUnit() {
             return distance_unit;
         }
 
-        public void setDistance_unit(String distance_unit) {
+        public void setDistanceUnit(String distance_unit) {
             this.distance_unit = distance_unit;
         }
 
-        public double getCost_per_minute() {
+        public double getCostPerMinute() {
             return cost_per_minute;
         }
 
-        public void setCost_per_minute(double cost_per_minute) {
+        public void setCostPerMinute(double cost_per_minute) {
             this.cost_per_minute = cost_per_minute;
         }
 
@@ -191,11 +191,11 @@ public class Product {
             this.minimum = minimum;
         }
 
-        public double getCost_per_distance() {
+        public double getCostPerDistance() {
             return cost_per_distance;
         }
 
-        public void setCost_per_distance(double cost_per_distance) {
+        public void setCostPerDistance(double cost_per_distance) {
             this.cost_per_distance = cost_per_distance;
         }
 
@@ -207,19 +207,19 @@ public class Product {
             this.base = base;
         }
 
-        public double getCancellation_fee() {
+        public double getCancellationFee() {
             return cancellation_fee;
         }
 
-        public void setCancellation_fee(double cancellation_fee) {
+        public void setCancellationFee(double cancellation_fee) {
             this.cancellation_fee = cancellation_fee;
         }
 
-        public String getCurrency_code() {
+        public String getCurrencyCode() {
             return currency_code;
         }
 
-        public void setCurrency_code(String currency_code) {
+        public void setCurrencyCode(String currency_code) {
             this.currency_code = currency_code;
         }
 
