@@ -1,6 +1,8 @@
 package com.neno0o.ubersdk;
 
-public class UberURLs {
+public final class UberURLs {
+
+    private UberURLs(){}
 
     public static final String SCOPE_PROFILE = "profile";
     public static final String SCOPE_HISTORY_LITE = "history_lite";
