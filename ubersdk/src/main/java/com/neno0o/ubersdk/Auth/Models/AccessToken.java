@@ -33,6 +33,7 @@ public class AccessToken {
     private String scope;
 
     public AccessToken() {
+        //TODO
     }
 
     public String getAccessTokenValue() {
