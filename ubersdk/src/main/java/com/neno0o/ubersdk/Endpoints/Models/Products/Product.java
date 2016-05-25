@@ -49,7 +49,7 @@ public class Product {
      */
     @Expose
     @SerializedName("price_details")
-    private PriceDetails price_details;
+    private PriceDetails priceDetails;
 
 
     public String getProductId() {
@@ -93,11 +93,11 @@ public class Product {
     }
 
     public PriceDetails getPriceDetails() {
-        return price_details;
+        return priceDetails;
     }
 
     public void setPriceDetails(PriceDetails price_details) {
-        this.price_details = price_details;
+        this.priceDetails = price_details;
     }
 
     public class PriceDetails {
@@ -107,21 +107,21 @@ public class Product {
          */
         @Expose
         @SerializedName("service_fees")
-        private List<ServiceFees> service_fees;
+        private List<ServiceFees> serviceFees;
 
         /**
          * The unit of distance used to calculate the fare (either mile or km).
          */
         @Expose
         @SerializedName("distance_unit")
-        private String distance_unit;
+        private String distanceUnit;
 
         /**
          * The charge per minute (if applicable for the product type).
          */
         @Expose
         @SerializedName("cost_per_minute")
-        private double cost_per_minute;
+        private double costPerMinute;
 
         /**
          * The minimum price of a trip.
@@ -135,7 +135,7 @@ public class Product {
          */
         @Expose
         @SerializedName("cost_per_distance")
-        private double cost_per_distance;
+        private double costPerDistance;
 
         /**
          * The base price.
@@ -149,38 +149,38 @@ public class Product {
          */
         @Expose
         @SerializedName("cancellation_fee")
-        private double cancellation_fee;
+        private double cancellationFee;
 
         /**
          * ISO 4217 currency code.
          */
         @Expose
         @SerializedName("currency_code")
-        private String currency_code;
+        private String currencyCode;
 
 
         public List<ServiceFees> getServiceFees() {
-            return service_fees;
+            return serviceFees;
         }
 
         public void setServiceFees(List<ServiceFees> service_fees) {
-            this.service_fees = service_fees;
+            this.serviceFees = service_fees;
         }
 
         public String getDistanceUnit() {
-            return distance_unit;
+            return distanceUnit;
         }
 
         public void setDistanceUnit(String distance_unit) {
-            this.distance_unit = distance_unit;
+            this.distanceUnit = distance_unit;
         }
 
         public double getCostPerMinute() {
-            return cost_per_minute;
+            return costPerMinute;
         }
 
         public void setCostPerMinute(double cost_per_minute) {
-            this.cost_per_minute = cost_per_minute;
+            this.costPerMinute = cost_per_minute;
         }
 
         public double getMinimum() {
@@ -192,11 +192,11 @@ public class Product {
         }
 
         public double getCostPerDistance() {
-            return cost_per_distance;
+            return costPerDistance;
         }
 
         public void setCostPerDistance(double cost_per_distance) {
-            this.cost_per_distance = cost_per_distance;
+            this.costPerDistance = cost_per_distance;
         }
 
         public double getBase() {
@@ -208,19 +208,19 @@ public class Product {
         }
 
         public double getCancellationFee() {
-            return cancellation_fee;
+            return cancellationFee;
         }
 
         public void setCancellationFee(double cancellation_fee) {
-            this.cancellation_fee = cancellation_fee;
+            this.cancellationFee = cancellation_fee;
         }
 
         public String getCurrencyCode() {
-            return currency_code;
+            return currencyCode;
         }
 
         public void setCurrencyCode(String currency_code) {
-            this.currency_code = currency_code;
+            this.currencyCode = currency_code;
         }
 
         public class ServiceFees {

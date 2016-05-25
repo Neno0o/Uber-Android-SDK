@@ -10,21 +10,21 @@ public class EstimatePrice {
      */
     @Expose
     @SerializedName("surge_confirmation_href")
-    private String surge_confirmation_href;
+    private String surgeConfirmationHref;
 
     /**
      * Upper bound of the estimated price.
      */
     @Expose
     @SerializedName("high_estimate")
-    private int high_estimate;
+    private int highEstimate;
 
     /**
      * The unique identifier of the surge session for a user. null if no surge is currently in effect.
      */
     @Expose
     @SerializedName("surge_confirmation_id")
-    private String surge_confirmation_id;
+    private String surgeConfirmationId;
 
     /**
      * The minimum fare of a trip. Should only be displayed or used if no end location is provided.
@@ -38,14 +38,14 @@ public class EstimatePrice {
      */
     @Expose
     @SerializedName("low_estimate")
-    private int low_estimate;
+    private int lowEstimate;
 
     /**
      * Expected surge multiplier. Surge is active if surge_multiplier is greater than 1. Fare estimates below factor in the surge multiplier.
      */
     @Expose
     @SerializedName("surge_multiplier")
-    private double surge_multiplier;
+    private double surgeMultiplier;
 
     /**
      * Formatted string of estimate in local currency of the start location.
@@ -60,31 +60,31 @@ public class EstimatePrice {
      */
     @Expose
     @SerializedName("currency_code")
-    private String currency_code;
+    private String currencyCode;
 
 
     public String getSurge_confirmation_href() {
-        return surge_confirmation_href;
+        return surgeConfirmationHref;
     }
 
     public void setSurge_confirmation_href(String surge_confirmation_href) {
-        this.surge_confirmation_href = surge_confirmation_href;
+        this.surgeConfirmationHref = surge_confirmation_href;
     }
 
     public int getHigh_estimate() {
-        return high_estimate;
+        return highEstimate;
     }
 
     public void setHigh_estimate(int high_estimate) {
-        this.high_estimate = high_estimate;
+        this.highEstimate = high_estimate;
     }
 
     public String getSurge_confirmation_id() {
-        return surge_confirmation_id;
+        return surgeConfirmationId;
     }
 
     public void setSurge_confirmation_id(String surge_confirmation_id) {
-        this.surge_confirmation_id = surge_confirmation_id;
+        this.surgeConfirmationId = surge_confirmation_id;
     }
 
     public int getMinimum() {
@@ -96,19 +96,19 @@ public class EstimatePrice {
     }
 
     public int getLow_estimate() {
-        return low_estimate;
+        return lowEstimate;
     }
 
     public void setLow_estimate(int low_estimate) {
-        this.low_estimate = low_estimate;
+        this.lowEstimate = low_estimate;
     }
 
     public double getSurge_multiplier() {
-        return surge_multiplier;
+        return surgeMultiplier;
     }
 
     public void setSurge_multiplier(double surge_multiplier) {
-        this.surge_multiplier = surge_multiplier;
+        this.surgeMultiplier = surge_multiplier;
     }
 
     public String getDisplay() {
@@ -120,10 +120,10 @@ public class EstimatePrice {
     }
 
     public String getCurrency_code() {
-        return currency_code;
+        return currencyCode;
     }
 
     public void setCurrency_code(String currency_code) {
-        this.currency_code = currency_code;
+        this.currencyCode = currency_code;
     }
 }

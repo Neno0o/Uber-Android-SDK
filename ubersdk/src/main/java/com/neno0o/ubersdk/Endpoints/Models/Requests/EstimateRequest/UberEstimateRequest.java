@@ -10,7 +10,7 @@ public class UberEstimateRequest {
      */
     @Expose
     @SerializedName("pickup_estimate")
-    private int pickup_estimate;
+    private int pickupEstimate;
 
     /**
      * Details of the estimated fare. If end location is omitted, only the minimum is returned.
@@ -28,11 +28,11 @@ public class UberEstimateRequest {
 
 
     public int getPickup_estimate() {
-        return pickup_estimate;
+        return pickupEstimate;
     }
 
     public void setPickup_estimate(int pickup_estimate) {
-        this.pickup_estimate = pickup_estimate;
+        this.pickupEstimate = pickup_estimate;
     }
 
     public EstimatePrice getPrice() {

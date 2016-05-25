@@ -10,43 +10,43 @@ public class Trip {
      */
     @Expose
     @SerializedName("distance_unit")
-    private String distance_unit;
+    private String distanceUnit;
 
     /**
      * Expected activity duration (in minutes).
      */
     @Expose
     @SerializedName("duration_estimate")
-    private int duration_estimate;
+    private int durationEstimate;
 
     /**
      * Expected activity distance.
      */
     @Expose
     @SerializedName("distance_estimate")
-    private double distance_estimate;
+    private double distanceEstimate;
 
     public String getDistance_unit() {
-        return distance_unit;
+        return distanceUnit;
     }
 
     public void setDistance_unit(String distance_unit) {
-        this.distance_unit = distance_unit;
+        this.distanceUnit = distance_unit;
     }
 
     public int getDuration_estimate() {
-        return duration_estimate;
+        return durationEstimate;
     }
 
     public void setDuration_estimate(int duration_estimate) {
-        this.duration_estimate = duration_estimate;
+        this.durationEstimate = duration_estimate;
     }
 
     public double getDistance_estimate() {
-        return distance_estimate;
+        return distanceEstimate;
     }
 
     public void setDistance_estimate(double distance_estimate) {
-        this.distance_estimate = distance_estimate;
+        this.distanceEstimate = distance_estimate;
     }
 }

@@ -12,14 +12,14 @@ public class UberReceiptRequest {
      */
     @Expose
     @SerializedName("request_id")
-    private String request_id;
+    private String requestId;
 
     /**
      * The summation of the charges.
      */
     @Expose
     @SerializedName("normal_fare")
-    private double normal_fare;
+    private double normalFare;
 
     /**
      * The summation of the normal_fare and surge_charge.
@@ -33,21 +33,21 @@ public class UberReceiptRequest {
      */
     @Expose
     @SerializedName("total_charged")
-    private double total_charged;
+    private double totalCharged;
 
     /**
      * The total amount still owed after attempting to charge the user. May be null if amount was paid in full.
      */
     @Expose
     @SerializedName("total_owed")
-    private double total_owed;
+    private double totalOwed;
 
     /**
      * ISO 4217
      */
     @Expose
     @SerializedName("currency_code")
-    private String currency_code;
+    private String currencyCode;
 
     /**
      * Time duration of the trip in ISO 8061 HH:MM:SS format.
@@ -68,7 +68,7 @@ public class UberReceiptRequest {
      */
     @Expose
     @SerializedName("distance_label")
-    private String distance_label;
+    private String distanceLabel;
 
     /**
      * Describes the charges made against the rider.
@@ -82,7 +82,7 @@ public class UberReceiptRequest {
      */
     @Expose
     @SerializedName("surge_charge")
-    private SurgeCharge surge_charge;
+    private SurgeCharge surgeCharge;
 
     /**
      * Adjustments made to the charges such as promotions, and fees.
@@ -93,19 +93,19 @@ public class UberReceiptRequest {
 
 
     public String getRequest_id() {
-        return request_id;
+        return requestId;
     }
 
     public void setRequest_id(String request_id) {
-        this.request_id = request_id;
+        this.requestId = request_id;
     }
 
     public double getNormal_fare() {
-        return normal_fare;
+        return normalFare;
     }
 
     public void setNormal_fare(double normal_fare) {
-        this.normal_fare = normal_fare;
+        this.normalFare = normal_fare;
     }
 
     public double getSubtotal() {
@@ -117,27 +117,27 @@ public class UberReceiptRequest {
     }
 
     public double getTotal_charged() {
-        return total_charged;
+        return totalCharged;
     }
 
     public void setTotal_charged(double total_charged) {
-        this.total_charged = total_charged;
+        this.totalCharged = total_charged;
     }
 
     public double getTotal_owed() {
-        return total_owed;
+        return totalOwed;
     }
 
     public void setTotal_owed(double total_owed) {
-        this.total_owed = total_owed;
+        this.totalOwed = total_owed;
     }
 
     public String getCurrency_code() {
-        return currency_code;
+        return currencyCode;
     }
 
     public void setCurrency_code(String currency_code) {
-        this.currency_code = currency_code;
+        this.currencyCode = currency_code;
     }
 
     public String getDuration() {
@@ -157,11 +157,11 @@ public class UberReceiptRequest {
     }
 
     public String getDistance_label() {
-        return distance_label;
+        return distanceLabel;
     }
 
     public void setDistance_label(String distance_label) {
-        this.distance_label = distance_label;
+        this.distanceLabel = distance_label;
     }
 
     public List<Charges> getCharges() {
@@ -173,11 +173,11 @@ public class UberReceiptRequest {
     }
 
     public SurgeCharge getSurge_charge() {
-        return surge_charge;
+        return surgeCharge;
     }
 
     public void setSurge_charge(SurgeCharge surge_charge) {
-        this.surge_charge = surge_charge;
+        this.surgeCharge = surge_charge;
     }
 
     public List<ChargeAdjustments> getCharge_adjustments() {
