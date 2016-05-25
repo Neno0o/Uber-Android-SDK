@@ -67,24 +67,24 @@ public class EstimatePrice {
         return surge_confirmation_href;
     }
 
-    public void setSurge_confirmation_href(String surge_confirmation_href) {
-        this.surge_confirmation_href = surge_confirmation_href;
+    public void setSurge_confirmation_href(String surgeConfirmationHref) {
+        this.surge_confirmation_href = surgeConfirmationHref;
     }
 
     public int getHigh_estimate() {
         return high_estimate;
     }
 
-    public void setHigh_estimate(int high_estimate) {
-        this.high_estimate = high_estimate;
+    public void setHigh_estimate(int highEstimate) {
+        this.high_estimate = highEstimate;
     }
 
     public String getSurge_confirmation_id() {
         return surge_confirmation_id;
     }
 
-    public void setSurge_confirmation_id(String surge_confirmation_id) {
-        this.surge_confirmation_id = surge_confirmation_id;
+    public void setSurge_confirmation_id(String surgeConfirmationId) {
+        this.surge_confirmation_id = surgeConfirmationId;
     }
 
     public int getMinimum() {
@@ -99,16 +99,16 @@ public class EstimatePrice {
         return low_estimate;
     }
 
-    public void setLow_estimate(int low_estimate) {
-        this.low_estimate = low_estimate;
+    public void setLow_estimate(int lowEstimate) {
+        this.low_estimate = lowEstimate;
     }
 
     public double getSurge_multiplier() {
         return surge_multiplier;
     }
 
-    public void setSurge_multiplier(double surge_multiplier) {
-        this.surge_multiplier = surge_multiplier;
+    public void setSurge_multiplier(double surgeMultiplier) {
+        this.surge_multiplier = surgeMultiplier;
     }
 
     public String getDisplay() {
@@ -123,7 +123,7 @@ public class EstimatePrice {
         return currency_code;
     }
 
-    public void setCurrency_code(String currency_code) {
-        this.currency_code = currency_code;
+    public void setCurrency_code(String currencyCode) {
+        this.currency_code = currencyCode;
     }
 }

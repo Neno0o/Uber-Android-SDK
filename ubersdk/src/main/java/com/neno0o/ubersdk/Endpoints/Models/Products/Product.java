@@ -96,8 +96,8 @@ public class Product {
         return price_details;
     }
 
-    public void setPriceDetails(PriceDetails price_details) {
-        this.price_details = price_details;
+    public void setPriceDetails(PriceDetails priceDetails) {
+        this.price_details = priceDetails;
     }
 
     public class PriceDetails {
@@ -163,24 +163,24 @@ public class Product {
             return service_fees;
         }
 
-        public void setServiceFees(List<ServiceFees> service_fees) {
-            this.service_fees = service_fees;
+        public void setServiceFees(List<ServiceFees> serviceFees) {
+            this.service_fees = serviceFees;
         }
 
         public String getDistanceUnit() {
             return distance_unit;
         }
 
-        public void setDistanceUnit(String distance_unit) {
-            this.distance_unit = distance_unit;
+        public void setDistanceUnit(String distanceUnit) {
+            this.distance_unit = distanceUnit;
         }
 
         public double getCostPerMinute() {
             return cost_per_minute;
         }
 
-        public void setCostPerMinute(double cost_per_minute) {
-            this.cost_per_minute = cost_per_minute;
+        public void setCostPerMinute(double costPerMinute) {
+            this.cost_per_minute = costPerMinute;
         }
 
         public double getMinimum() {
@@ -195,8 +195,8 @@ public class Product {
             return cost_per_distance;
         }
 
-        public void setCostPerDistance(double cost_per_distance) {
-            this.cost_per_distance = cost_per_distance;
+        public void setCostPerDistance(double costPerDistance) {
+            this.cost_per_distance = costPerDistance;
         }
 
         public double getBase() {
@@ -211,16 +211,16 @@ public class Product {
             return cancellation_fee;
         }
 
-        public void setCancellationFee(double cancellation_fee) {
-            this.cancellation_fee = cancellation_fee;
+        public void setCancellationFee(double cancellationFee) {
+            this.cancellation_fee = cancellationFee;
         }
 
         public String getCurrencyCode() {
             return currency_code;
         }
 
-        public void setCurrencyCode(String currency_code) {
-            this.currency_code = currency_code;
+        public void setCurrencyCode(String currencyCode) {
+            this.currency_code = currencyCode;
         }
 
         public class ServiceFees {

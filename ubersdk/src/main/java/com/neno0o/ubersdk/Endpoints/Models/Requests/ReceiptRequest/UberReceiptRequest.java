@@ -96,16 +96,16 @@ public class UberReceiptRequest {
         return request_id;
     }
 
-    public void setRequest_id(String request_id) {
-        this.request_id = request_id;
+    public void setRequest_id(String requestId) {
+        this.request_id = requestId;
     }
 
     public double getNormal_fare() {
         return normal_fare;
     }
 
-    public void setNormal_fare(double normal_fare) {
-        this.normal_fare = normal_fare;
+    public void setNormal_fare(double normalFare) {
+        this.normal_fare = normalFare;
     }
 
     public double getSubtotal() {
@@ -120,24 +120,24 @@ public class UberReceiptRequest {
         return total_charged;
     }
 
-    public void setTotal_charged(double total_charged) {
-        this.total_charged = total_charged;
+    public void setTotal_charged(double totalCharged) {
+        this.total_charged = totalCharged;
     }
 
     public double getTotal_owed() {
         return total_owed;
     }
 
-    public void setTotal_owed(double total_owed) {
-        this.total_owed = total_owed;
+    public void setTotal_owed(double totalOwed) {
+        this.total_owed = totalOwed;
     }
 
     public String getCurrency_code() {
         return currency_code;
     }
 
-    public void setCurrency_code(String currency_code) {
-        this.currency_code = currency_code;
+    public void setCurrency_code(String currencyCode) {
+        this.currency_code = currencyCode;
     }
 
     public String getDuration() {
@@ -160,8 +160,8 @@ public class UberReceiptRequest {
         return distance_label;
     }
 
-    public void setDistance_label(String distance_label) {
-        this.distance_label = distance_label;
+    public void setDistance_label(String distanceLabel) {
+        this.distance_label = distanceLabel;
     }
 
     public List<Charges> getCharges() {
@@ -176,15 +176,15 @@ public class UberReceiptRequest {
         return surge_charge;
     }
 
-    public void setSurge_charge(SurgeCharge surge_charge) {
-        this.surge_charge = surge_charge;
+    public void setSurge_charge(SurgeCharge surgeCharge) {
+        this.surge_charge = surgeCharge;
     }
 
     public List<ChargeAdjustments> getCharge_adjustments() {
         return charge_adjustments;
     }
 
-    public void setCharge_adjustments(List<ChargeAdjustments> charge_adjustments) {
-        this.charge_adjustments = charge_adjustments;
+    public void setCharge_adjustments(List<ChargeAdjustments> chargeAdjustments) {
+        this.charge_adjustments = chargeAdjustments;
     }
 }
