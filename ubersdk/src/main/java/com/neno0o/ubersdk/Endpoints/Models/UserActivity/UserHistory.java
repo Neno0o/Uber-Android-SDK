@@ -65,11 +65,11 @@ public class UserHistory {
     private StartCity start_city;
 
 
-    public String getRequest_id() {
+    public String getRequestId() {
         return request_id;
     }
 
-    public void setRequest_id(String request_id) {
+    public void setRequestId(String request_id) {
         this.request_id = request_id;
     }
 
@@ -121,11 +121,11 @@ public class UserHistory {
         this.endTime = endTime;
     }
 
-    public StartCity getStart_city() {
+    public StartCity getStartCity() {
         return start_city;
     }
 
-    public void setStart_city(StartCity start_city) {
+    public void setStartCity(StartCity start_city) {
         this.start_city = start_city;
     }
 
@@ -168,11 +168,11 @@ public class UserHistory {
             this.longitude = longitude;
         }
 
-        public String getDisplay_name() {
+        public String getDisplayName() {
             return display_name;
         }
 
-        public void setDisplay_name(String display_name) {
+        public void setDisplayName(String display_name) {
             this.display_name = display_name;
         }
     }

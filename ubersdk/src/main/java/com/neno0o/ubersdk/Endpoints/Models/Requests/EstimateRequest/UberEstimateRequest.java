@@ -27,11 +27,11 @@ public class UberEstimateRequest {
     private Trip trip;
 
 
-    public int getPickup_estimate() {
+    public int getPickupEstimate() {
         return pickup_estimate;
     }
 
-    public void setPickup_estimate(int pickup_estimate) {
+    public void setPickupEstimate(int pickup_estimate) {
         this.pickup_estimate = pickup_estimate;
     }
 

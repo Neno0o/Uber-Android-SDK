@@ -63,27 +63,27 @@ public class EstimatePrice {
     private String currency_code;
 
 
-    public String getSurge_confirmation_href() {
+    public String getSurgeConfirmationHref() {
         return surge_confirmation_href;
     }
 
-    public void setSurge_confirmation_href(String surge_confirmation_href) {
+    public void setSurgeConfirmationHref(String surge_confirmation_href) {
         this.surge_confirmation_href = surge_confirmation_href;
     }
 
-    public int getHigh_estimate() {
+    public int getHighEstimate() {
         return high_estimate;
     }
 
-    public void setHigh_estimate(int high_estimate) {
+    public void setHighEstimate(int high_estimate) {
         this.high_estimate = high_estimate;
     }
 
-    public String getSurge_confirmation_id() {
+    public String getSurgeConfirmation_id() {
         return surge_confirmation_id;
     }
 
-    public void setSurge_confirmation_id(String surge_confirmation_id) {
+    public void setSurgeConfirmationId(String surge_confirmation_id) {
         this.surge_confirmation_id = surge_confirmation_id;
     }
 
@@ -95,19 +95,19 @@ public class EstimatePrice {
         this.minimum = minimum;
     }
 
-    public int getLow_estimate() {
+    public int getLowEstimate() {
         return low_estimate;
     }
 
-    public void setLow_estimate(int low_estimate) {
+    public void setLowEstimate(int low_estimate) {
         this.low_estimate = low_estimate;
     }
 
-    public double getSurge_multiplier() {
+    public double getSurgeMultiplier() {
         return surge_multiplier;
     }
 
-    public void setSurge_multiplier(double surge_multiplier) {
+    public void setSurgeMultiplier(double surge_multiplier) {
         this.surge_multiplier = surge_multiplier;
     }
 
@@ -119,11 +119,11 @@ public class EstimatePrice {
         this.display = display;
     }
 
-    public String getCurrency_code() {
+    public String getCurrencyCode() {
         return currency_code;
     }
 
-    public void setCurrency_code(String currency_code) {
+    public void setCurrencyCode(String currency_code) {
         this.currency_code = currency_code;
     }
 }
