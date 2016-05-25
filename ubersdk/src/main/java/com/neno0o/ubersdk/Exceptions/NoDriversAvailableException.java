@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Exceptions;
+package com.neno0o.ubersdk.exceptions;
 
 /**
  * No drivers available for requested product at time of request. Either instruct the rider to

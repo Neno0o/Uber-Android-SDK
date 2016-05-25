@@ -1,4 +1,4 @@
-package com.neno0o.uber_android_sdk;
+package com.neno0o.sdk;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

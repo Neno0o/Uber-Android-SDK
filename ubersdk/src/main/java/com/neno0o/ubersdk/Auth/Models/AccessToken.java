@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Auth.Models;
+package com.neno0o.ubersdk.auth.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

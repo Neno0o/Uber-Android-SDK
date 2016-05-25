@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Exceptions;
+package com.neno0o.ubersdk.exceptions;
 
 /**
  * The user’s mobile number has already been claimed by an existing Uber account.

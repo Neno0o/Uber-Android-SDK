@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.Requests.ErrorResponses;
+package com.neno0o.ubersdk.endpoints.models.requests.errorresponses;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

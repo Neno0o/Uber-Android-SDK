@@ -1,7 +1,7 @@
-package com.neno0o.ubersdk.Sandbox.Service;
+package com.neno0o.ubersdk.sandbox.service;
 
-import com.neno0o.ubersdk.Sandbox.Models.SandboxProductBody;
-import com.neno0o.ubersdk.Sandbox.Models.SandboxRequestBody;
+import com.neno0o.ubersdk.sandbox.models.SandboxProductBody;
+import com.neno0o.ubersdk.sandbox.models.SandboxRequestBody;
 
 import retrofit.client.Response;
 import retrofit.http.Body;

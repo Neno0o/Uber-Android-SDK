@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Exceptions;
+package com.neno0o.ubersdk.exceptions;
 
 /**
  * An unknown error has occurred.

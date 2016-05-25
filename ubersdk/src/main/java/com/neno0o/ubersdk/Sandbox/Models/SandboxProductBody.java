@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Sandbox.Models;
+package com.neno0o.ubersdk.sandbox.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

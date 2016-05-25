@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Exceptions;
+package com.neno0o.ubersdk.exceptions;
 
 /**
  * The user hasn’t confirmed their mobile number. Instruct the user to confirm

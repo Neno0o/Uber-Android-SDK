@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.Promotions;
+package com.neno0o.ubersdk.endpoints.models.promotions;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Exceptions;
+package com.neno0o.ubersdk.exceptions;
 
 /**
  * An error has occurred when the attempting to request a product.

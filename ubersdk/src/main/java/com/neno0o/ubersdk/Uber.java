@@ -6,12 +6,12 @@ import com.google.gson.JsonDeserializationContext;
 import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParseException;
-import com.neno0o.ubersdk.Auth.Models.AccessToken;
-import com.neno0o.ubersdk.Auth.Service.UberAuthService;
-import com.neno0o.ubersdk.Endpoints.Service.UberAPIService;
-import com.neno0o.ubersdk.Exceptions.ForbiddenException;
-import com.neno0o.ubersdk.Exceptions.UnauthorizedException;
-import com.neno0o.ubersdk.Sandbox.Service.UberSandboxService;
+import com.neno0o.ubersdk.auth.models.AccessToken;
+import com.neno0o.ubersdk.auth.service.UberAuthService;
+import com.neno0o.ubersdk.endpoints.service.UberAPIService;
+import com.neno0o.ubersdk.exceptions.ForbiddenException;
+import com.neno0o.ubersdk.exceptions.UnauthorizedException;
+import com.neno0o.ubersdk.sandbox.service.UberSandboxService;
 
 import java.lang.reflect.Type;
 import java.util.Date;

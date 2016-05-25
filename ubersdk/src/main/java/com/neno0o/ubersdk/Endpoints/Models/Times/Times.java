@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.Times;
+package com.neno0o.ubersdk.endpoints.models.times;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

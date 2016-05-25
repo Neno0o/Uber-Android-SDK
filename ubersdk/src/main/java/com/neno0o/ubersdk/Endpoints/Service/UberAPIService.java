@@ -1,18 +1,18 @@
-package com.neno0o.ubersdk.Endpoints.Service;
+package com.neno0o.ubersdk.endpoints.service;
 
-import com.neno0o.ubersdk.Endpoints.Models.Prices.Prices;
-import com.neno0o.ubersdk.Endpoints.Models.Products.Product;
-import com.neno0o.ubersdk.Endpoints.Models.Products.Products;
-import com.neno0o.ubersdk.Endpoints.Models.Promotions.Promotion;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.EstimateRequest.UberEstimateBody;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.EstimateRequest.UberEstimateRequest;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.MapRequest.UberMapRequest;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.ReceiptRequest.UberReceiptRequest;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.UberRequest;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.UberRequestBody;
-import com.neno0o.ubersdk.Endpoints.Models.Times.Times;
-import com.neno0o.ubersdk.Endpoints.Models.UserActivity.UserActivity;
-import com.neno0o.ubersdk.Endpoints.Models.UserProfile.User;
+import com.neno0o.ubersdk.endpoints.models.prices.Prices;
+import com.neno0o.ubersdk.endpoints.models.products.Product;
+import com.neno0o.ubersdk.endpoints.models.products.Products;
+import com.neno0o.ubersdk.endpoints.models.promotions.Promotion;
+import com.neno0o.ubersdk.endpoints.models.requests.estimaterequest.UberEstimateBody;
+import com.neno0o.ubersdk.endpoints.models.requests.estimaterequest.UberEstimateRequest;
+import com.neno0o.ubersdk.endpoints.models.requests.maprequest.UberMapRequest;
+import com.neno0o.ubersdk.endpoints.models.requests.receiptrequest.UberReceiptRequest;
+import com.neno0o.ubersdk.endpoints.models.requests.UberRequest;
+import com.neno0o.ubersdk.endpoints.models.requests.UberRequestBody;
+import com.neno0o.ubersdk.endpoints.models.times.Times;
+import com.neno0o.ubersdk.endpoints.models.useractivity.UserActivity;
+import com.neno0o.ubersdk.endpoints.models.userprofile.User;
 
 import retrofit.Callback;
 import retrofit.client.Response;

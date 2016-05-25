@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.Requests;
+package com.neno0o.ubersdk.endpoints.models.requests;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
