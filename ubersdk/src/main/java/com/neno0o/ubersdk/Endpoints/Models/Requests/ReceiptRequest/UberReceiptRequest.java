@@ -92,19 +92,19 @@ public class UberReceiptRequest {
     private List<ChargeAdjustments> charge_adjustments;
 
 
-    public String getRequest_id() {
+    public String getRequestId() {
         return request_id;
     }
 
-    public void setRequest_id(String request_id) {
+    public void setRequestId(String request_id) {
         this.request_id = request_id;
     }
 
-    public double getNormal_fare() {
+    public double getNormalFare() {
         return normal_fare;
     }
 
-    public void setNormal_fare(double normal_fare) {
+    public void setNormalFare(double normal_fare) {
         this.normal_fare = normal_fare;
     }
 
@@ -116,19 +116,19 @@ public class UberReceiptRequest {
         this.subtotal = subtotal;
     }
 
-    public double getTotal_charged() {
+    public double getTotalCharged() {
         return total_charged;
     }
 
-    public void setTotal_charged(double total_charged) {
+    public void setTotalCharged(double total_charged) {
         this.total_charged = total_charged;
     }
 
-    public double getTotal_owed() {
+    public double getTotalOwed() {
         return total_owed;
     }
 
-    public void setTotal_owed(double total_owed) {
+    public void setTotalOwed(double total_owed) {
         this.total_owed = total_owed;
     }
 
@@ -136,7 +136,7 @@ public class UberReceiptRequest {
         return currency_code;
     }
 
-    public void setCurrency_code(String currency_code) {
+    public void setCurrencyCode(String currency_code) {
         this.currency_code = currency_code;
     }
 
@@ -156,11 +156,11 @@ public class UberReceiptRequest {
         this.distance = distance;
     }
 
-    public String getDistance_label() {
+    public String getDistanceLabel() {
         return distance_label;
     }
 
-    public void setDistance_label(String distance_label) {
+    public void setDistanceLabel(String distance_label) {
         this.distance_label = distance_label;
     }
 
@@ -172,19 +172,19 @@ public class UberReceiptRequest {
         this.charges = charges;
     }
 
-    public SurgeCharge getSurge_charge() {
+    public SurgeCharge getSurgeCharge() {
         return surge_charge;
     }
 
-    public void setSurge_charge(SurgeCharge surge_charge) {
+    public void setSurgeCharge(SurgeCharge surge_charge) {
         this.surge_charge = surge_charge;
     }
 
-    public List<ChargeAdjustments> getCharge_adjustments() {
+    public List<ChargeAdjustments> getChargeAdjustments() {
         return charge_adjustments;
     }
 
-    public void setCharge_adjustments(List<ChargeAdjustments> charge_adjustments) {
+    public void setChargeAdjustments(List<ChargeAdjustments> charge_adjustments) {
         this.charge_adjustments = charge_adjustments;
     }
 }

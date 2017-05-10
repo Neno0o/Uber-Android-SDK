@@ -55,11 +55,11 @@ public class Time {
         this.estimate = estimate;
     }
 
-    public String getLocalized_display_name() {
+    public String getLocalizedDisplayName() {
         return localized_display_name;
     }
 
-    public void setLocalized_display_name(String localized_display_name) {
+    public void setLocalizedDisplayName(String localized_display_name) {
         this.localized_display_name = localized_display_name;
     }
 }
