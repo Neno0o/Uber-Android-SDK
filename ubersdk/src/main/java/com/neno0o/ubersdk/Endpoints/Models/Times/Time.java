@@ -29,7 +29,7 @@ public class Time {
 
     @Expose
     @SerializedName("localized_display_name")
-    private String localized_display_name;
+    private String localizedDisplayName;
 
     public String getProductId() {
         return productId;
@@ -56,10 +56,10 @@ public class Time {
     }
 
     public String getLocalized_display_name() {
-        return localized_display_name;
+        return localizedDisplayName;
     }
 
     public void setLocalized_display_name(String localized_display_name) {
-        this.localized_display_name = localized_display_name;
+        this.localizedDisplayName = localized_display_name;
     }
 }

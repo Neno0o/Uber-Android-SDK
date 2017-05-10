@@ -12,7 +12,7 @@ public class UserHistory {
      */
     @Expose
     @SerializedName("request_id")
-    private String request_id;
+    private String requestId;
 
     /**
      * Unix timestamp of activity request time.
@@ -62,15 +62,15 @@ public class UserHistory {
      */
     @Expose
     @SerializedName("start_city")
-    private StartCity start_city;
+    private StartCity startCity;
 
 
     public String getRequest_id() {
-        return request_id;
+        return requestId;
     }
 
     public void setRequest_id(String request_id) {
-        this.request_id = request_id;
+        this.requestId = request_id;
     }
 
     public Date getRequestTime() {
@@ -122,11 +122,11 @@ public class UserHistory {
     }
 
     public StartCity getStart_city() {
-        return start_city;
+        return startCity;
     }
 
     public void setStart_city(StartCity start_city) {
-        this.start_city = start_city;
+        this.startCity = start_city;
     }
 
     public class StartCity {
