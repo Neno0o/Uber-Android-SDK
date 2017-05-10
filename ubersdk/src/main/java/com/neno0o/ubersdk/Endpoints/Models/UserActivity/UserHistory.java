@@ -69,8 +69,8 @@ public class UserHistory {
         return request_id;
     }
 
-    public void setRequest_id(String request_id) {
-        this.request_id = request_id;
+    public void setRequest_id(String requestId) {
+        this.request_id = requestId;
     }
 
     public Date getRequestTime() {
@@ -125,8 +125,8 @@ public class UserHistory {
         return start_city;
     }
 
-    public void setStart_city(StartCity start_city) {
-        this.start_city = start_city;
+    public void setStart_city(StartCity startCity) {
+        this.start_city = startCity;
     }
 
     public class StartCity {
@@ -172,8 +172,8 @@ public class UserHistory {
             return display_name;
         }
 
-        public void setDisplay_name(String display_name) {
-            this.display_name = display_name;
+        public void setDisplay_name(String displayName) {
+            this.display_name = displayName;
         }
     }
 }

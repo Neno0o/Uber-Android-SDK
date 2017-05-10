@@ -31,8 +31,8 @@ public class UberEstimateRequest {
         return pickup_estimate;
     }
 
-    public void setPickup_estimate(int pickup_estimate) {
-        this.pickup_estimate = pickup_estimate;
+    public void setPickup_estimate(int pickupEstimate) {
+        this.pickup_estimate = pickupEstimate;
     }
 
     public EstimatePrice getPrice() {

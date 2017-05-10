@@ -59,7 +59,7 @@ public class Time {
         return localized_display_name;
     }
 
-    public void setLocalized_display_name(String localized_display_name) {
-        this.localized_display_name = localized_display_name;
+    public void setLocalized_display_name(String localizedDisplayName) {
+        this.localized_display_name = localizedDisplayName;
     }
 }
