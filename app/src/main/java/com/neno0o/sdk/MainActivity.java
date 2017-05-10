@@ -1,4 +1,4 @@
-package com.neno0o.uber_android_sdk;
+package com.neno0o.uber.android.sdk;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,10 +8,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
-import com.neno0o.ubersdk.Activites.Authentication;
-import com.neno0o.ubersdk.Endpoints.Models.UserProfile.User;
+import com.neno0o.ubersdk.activites.Authentication;
+import com.neno0o.ubersdk.endpoints.models.userprofile.User;
 import com.neno0o.ubersdk.Uber;
-import com.neno0o.ubersdk.Widgets.UberButton;
+import com.neno0o.ubersdk.widgets.UberButton;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;

@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.Prices;
+package com.neno0o.ubersdk.endpoints.models.prices;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

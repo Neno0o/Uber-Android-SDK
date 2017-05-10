@@ -1,4 +1,4 @@
-package com.neno0o.uber_android_sdk;
+package com.neno0o.uber.android.sdk;
 
 import com.neno0o.ubersdk.Uber;
 

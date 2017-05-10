@@ -1,6 +1,6 @@
-package com.neno0o.ubersdk.Auth.Service;
+package com.neno0o.ubersdk.auth.service;
 
-import com.neno0o.ubersdk.Auth.Models.AccessToken;
+import com.neno0o.ubersdk.auth.models.AccessToken;
 
 import retrofit.Callback;
 import retrofit.http.POST;

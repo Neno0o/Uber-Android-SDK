@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Widgets;
+package com.neno0o.ubersdk.widgets;
 
 
 import android.content.Context;

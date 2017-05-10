@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.UserProfile;
+package com.neno0o.ubersdk.endpoints.models.userprofile;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

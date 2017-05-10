@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Activites;
+package com.neno0o.ubersdk.activites;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -10,7 +10,7 @@ import android.webkit.WebView;
 import android.webkit.WebViewClient;
 import android.widget.Toast;
 
-import com.neno0o.ubersdk.Auth.Models.AccessToken;
+import com.neno0o.ubersdk.auth.models.AccessToken;
 import com.neno0o.ubersdk.R;
 import com.neno0o.ubersdk.Uber;
 import com.neno0o.ubersdk.UberURLs;

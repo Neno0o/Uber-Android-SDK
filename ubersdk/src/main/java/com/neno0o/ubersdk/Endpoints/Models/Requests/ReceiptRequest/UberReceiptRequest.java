@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Endpoints.Models.Requests.ReceiptRequest;
+package com.neno0o.ubersdk.endpoints.models.requests.receiptrequest;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

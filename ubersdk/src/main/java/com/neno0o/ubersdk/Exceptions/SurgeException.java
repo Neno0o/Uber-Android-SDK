@@ -1,4 +1,4 @@
-package com.neno0o.ubersdk.Exceptions;
+package com.neno0o.ubersdk.exceptions;
 
 /**
  * Surge pricing is currently in effect for this product. Please have the user confirm surge pricing by

@@ -1,8 +1,8 @@
-package com.neno0o.ubersdk.Sandbox.Models;
+package com.neno0o.ubersdk.sandbox.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
-import com.neno0o.ubersdk.Endpoints.Models.Requests.UberStatus;
+import com.neno0o.ubersdk.endpoints.models.requests.UberStatus;
 
 /**
  * This class implements a JSON body indicating how you would like to manipulate the status of a Request.
