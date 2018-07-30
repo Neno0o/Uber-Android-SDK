@@ -1,5 +1,5 @@
 # Deprecated
-Please refer to Uber official SDK https://github.com/uber/rides-android-sdk, as am not supporting this project anymore, but feel free to use the current version.
+Please refer to Uber official SDK https://github.com/uber/rides-android-sdk, as I am not supporting this project anymore, but feel free to use the current version.
 
 # Uber SDK for Android
 An unofficial Uber SDK for Android. 
