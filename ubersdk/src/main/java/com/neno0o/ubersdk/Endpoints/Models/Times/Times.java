@@ -9,13 +9,13 @@ public class Times {
 
     @Expose
     @SerializedName("times")
-    private List<Time> times;
+    private List<Time> timesList;
 
     public List<Time> getTimes() {
-        return times;
+        return timesList;
     }
 
     public void setTimes(List<Time> times) {
-        this.times = times;
+        this.timesList = times;
     }
 }

@@ -9,13 +9,13 @@ public class Products {
 
     @Expose
     @SerializedName("products")
-    private List<Product> products;
+    private List<Product> productsList;
 
     public List<Product> getProducts() {
-        return products;
+        return productsList;
     }
 
     public void setProducts(List<Product> products) {
-        this.products = products;
+        this.productsList = products;
     }
 }
