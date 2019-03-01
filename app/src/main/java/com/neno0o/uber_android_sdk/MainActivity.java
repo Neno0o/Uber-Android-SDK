@@ -73,7 +73,7 @@ public class MainActivity extends AppCompatActivity {
 
                 @Override
                 public void failure(RetrofitError error) {
-
+                    throw new UnsupportedOperationException("This method is inot implemented yet!");
                 }
             });
         }

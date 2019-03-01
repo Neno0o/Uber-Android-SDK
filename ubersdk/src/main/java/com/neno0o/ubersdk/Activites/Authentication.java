@@ -93,7 +93,7 @@ public class Authentication extends AppCompatActivity {
 
                             @Override
                             public void failure(RetrofitError error) {
-
+                                throw new UnsupportedOperationException("This method is not implemented yet!");
                             }
                         }
                 );
